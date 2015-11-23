@@ -7,8 +7,8 @@ class CfgWeapons {
         scope = 2;
         // cannot do ItemGPS as long as we do have to use magazines for unique items
         // simulation = "ItemGPS";
-        EGVAR(bft,deviceType) = "";
-        EGVAR(bft,magazineItem) = "";
+        EGVAR(bftlight,deviceType) = "";
+        EGVAR(bftlight,magazineItem) = "";
     };
 
     // DK10 BLUFOR
@@ -20,24 +20,24 @@ class CfgWeapons {
         class ItemInfo: InventoryItem_Base_F {
             mass = 40;
         };
-        EGVAR(bft,deviceType) = "DK10_b";
-        EGVAR(bft,magazineItem) = "ACE_DK10Magazine_b";
+        EGVAR(bftlight,deviceType) = "DK10_b";
+        EGVAR(bftlight,magazineItem) = "ACE_DK10Magazine_b";
     };
 
     // DK10 OPFOR
     class ACE_DK10_o: ACE_DK10_b {
         descriptionShort = CSTRING(DK10_itemDescription_o);
         displayName = CSTRING(DK10_itemName_o);
-        EGVAR(bft,deviceType) = "DK10_o";
-        EGVAR(bft,magazineItem) = "ACE_DK10Magazine_o";
+        EGVAR(bftlight,deviceType) = "DK10_o";
+        EGVAR(bftlight,magazineItem) = "ACE_DK10Magazine_o";
     };
 
     // DK10 IND
     class ACE_DK10_i: ACE_DK10_b {
         descriptionShort = CSTRING(DK10_itemDescription_i);
         displayName = CSTRING(DK10_itemName_i);
-        EGVAR(bft,deviceType) = "DK10_i";
-        EGVAR(bft,magazineItem) = "ACE_DK10Magazine_i";
+        EGVAR(bftlight,deviceType) = "DK10_i";
+        EGVAR(bftlight,magazineItem) = "ACE_DK10Magazine_i";
     };
 
     // GD300 BLUFOR
@@ -49,24 +49,24 @@ class CfgWeapons {
         class ItemInfo: InventoryItem_Base_F {
             mass = 5;
         };
-        EGVAR(bft,deviceType) = "GD300_b";
-        EGVAR(bft,magazineItem) = "ACE_GD300Magazine_b";
+        EGVAR(bftlight,deviceType) = "GD300_b";
+        EGVAR(bftlight,magazineItem) = "ACE_GD300Magazine_b";
     };
 
     // GD300 OPFOR
     class ACE_GD300_o: ACE_GD300_b {
         descriptionShort = CSTRING(GD300_itemDescription_o);
         displayName = CSTRING(GD300_itemName_o);
-        EGVAR(bft,deviceType) = "GD300_o";
-        EGVAR(bft,magazineItem) = "ACE_GD300Magazine_o";
+        EGVAR(bftlight,deviceType) = "GD300_o";
+        EGVAR(bftlight,magazineItem) = "ACE_GD300Magazine_o";
     };
 
     // GD300 IND
     class ACE_GD300_i: ACE_GD300_b {
         descriptionShort = CSTRING(GD300_itemDescription_i);
         displayName = CSTRING(GD300_itemName_i);
-        EGVAR(bft,deviceType) = "GD300_i";
-        EGVAR(bft,magazineItem) = "ACE_GD300Magazine_i";
+        EGVAR(bftlight,deviceType) = "GD300_i";
+        EGVAR(bftlight,magazineItem) = "ACE_GD300Magazine_i";
     };
 
     /*class ACE_MicroDAGR_x: GVAR(ItemCore) { // temporary name change to not interfere with MicroDAGR module during integration
@@ -78,7 +78,7 @@ class CfgWeapons {
             mass = 6;
         };
 
-        EGVAR(bft,magazineItem) = "ACE_MicroDAGR_xMagazine";
+        EGVAR(bftlight,magazineItem) = "ACE_MicroDAGR_xMagazine";
 
         //GVAR(displayName) = GVAR(MicroDAGR_dsp);
         //GVAR(dialogName) = GVAR(MicroDAGR_dlg);
