@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="ACE">
+    <Package name="bftlight">
+        <Key ID="STR_ACE_bftlight_DK10_itemName_b">
+            <English>DK10 Tablet (NATO)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_DK10_itemDescription_b">
+            <English>DK10 rugged tablet PC</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_DK10_itemName_o">
+            <English>DK10 Tablet (CSAT)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_DK10_itemDescription_o">
+            <English>DK10 rugged tablet PC</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_DK10_itemName_i">
+            <English>DK10 Tablet (AAF)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_DK10_itemDescription_i">
+            <English>DK10 rugged tablet PC</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_GD300_itemName_b">
+            <English>GD300 Android (NATO)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_GD300_itemDescription_b">
+            <English>GD300 rugged wearable computer</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_GD300_itemName_o">
+            <English>GD300 Android (CSAT)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_GD300_itemDescription_o">
+            <English>GD300 rugged wearable computer</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_GD300_itemName_i">
+            <English>GD300 Android (AAF)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_GD300_itemDescription_i">
+            <English>GD300 rugged wearable computer</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_MicroDAGR_itemName">
+            <English>MicroDAGR GPS</English>
+            <German>MicroDAGR GPS</German>
+            <Spanish>GPS MicroDAGR</Spanish>
+            <Russian>MicroDAGR GPS</Russian>
+            <Czech>MicroDAGR GPS</Czech>
+            <Polish>MicroDAGR GPS</Polish>
+            <French>MicroDAGR GPS</French>
+            <Hungarian>MicroDAGR GPS</Hungarian>
+            <Italian>MicroDAGR GPS</Italian>
+            <Portuguese>GPS MicroDAGR</Portuguese>
+        </Key>
+        <Key ID="STR_ACE_bftlight_MicroDAGR_itemDescription">
+            <English>MicroDAGR advanced GPS receiver</English>
+            <German>MicroDAGR - Fortgeschrittener GPS-Empfänger</German>
+            <Spanish>Receptor avanzado GPS MicroDAGR</Spanish>
+            <Russian>Многофункциональный GPS-приёмник.</Russian>
+            <Polish>Zaawansowany odbiornik GPS MicroDAGR</Polish>
+            <French>Récepteur GPS MicroDAGR</French>
+            <Czech>MicroDAGR pokročílá GPS příjímač</Czech>
+            <Hungarian>MicroDAGR fejlett GPS vevőegység</Hungarian>
+            <Italian>MicroDAGR ricevitore GPS avanzato</Italian>
+            <Portuguese>Recepitor GPS avançado MicroDAGR</Portuguese>
+        </Key>
+        <Key ID="STR_ACE_bftlight_Box_b">
+            <English>[ACE] BFT Items (NATO)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_Box_o">
+            <English>[ACE] BFT Items (CSAT)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_Box_i">
+            <English>[ACE] BFT Items (AAF)</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_HelmetCam_itemName">
+            <English>Helmet Camera</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_HelmetCam_itemDescription">
+            <English>HD helmet mounted camera</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfPrimaryKey_Name">
+            <English>Toggle Primary Interface</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfPrimaryKey_ToolTip">
+            <English>Open BFT device in small overlay mode if available</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfSecondaryKey_Name">
+            <English>Toggle Secondary Interface</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfSecondaryKey_ToolTip">
+            <English>Open BFT device in interactable mode</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfTertiaryKey_Name">
+            <English>Toggle Tertiary Interface</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfTertiaryKey_ToolTip">
+            <English>Open private BFT device when in a vehicle with its own BFT device, or to open Tablet while also carrying a MicroDAGR</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfZoomInKey_Name">
+            <English>Zoom In</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfZoomInKey_ToolTip">
+            <English>Zoom In on map while BFT device is in small overlay mode</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfZoomOutKey_Name">
+            <English>Zoom Out</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfZoomOutKey_ToolTip">
+            <English>Zoom Out on map while BFT device is in small overlay mode</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfTogglePositionKey_Name">
+            <English>Toggle Interface Position</English>
+        </Key>
+        <Key ID="STR_ACE_bftlight_IfTogglePositionKey_ToolTip">
+            <English>Toggle overlay mode interface position from left to right or reset interactive mode interface position to default</English>
+        </Key>
+    </Package>
+</Project>

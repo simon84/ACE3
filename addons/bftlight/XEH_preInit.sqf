@@ -2,6 +2,7 @@
 
 ADDON = false;
 
-PREP(empty);
+PREP(init);
+PREP(playerInventoryChanged);
 
 ADDON = true;
