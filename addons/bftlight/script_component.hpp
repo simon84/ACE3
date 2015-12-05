@@ -1,4 +1,7 @@
 #define COMPONENT bftlight
+#define DISABLE_COMPILE_CACHE
+#define DEBUG_ENABLED_BFTLIGHT
+
 #include "\z\ace\addons\main\script_mod.hpp"
 
 #ifdef DEBUG_ENABLED_BFTLIGHT

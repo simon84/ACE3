@@ -17,7 +17,6 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(ACE_DK10_b,5);
             MACRO_ADDITEM(ACE_GD300_b,15);
-            MACRO_ADDITEM(ACE_HelmetCam,25);
         };
     };
     class Box_East_Support_F;
@@ -35,7 +34,6 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(ACE_DK10_o,5);
             MACRO_ADDITEM(ACE_GD300_o,15);
-            MACRO_ADDITEM(ACE_HelmetCam,25);
         };
     };
     class Box_IND_Support_F;
@@ -53,7 +51,6 @@ class CfgVehicles {
         class TransportItems {
             MACRO_ADDITEM(ACE_DK10_i,5);
             MACRO_ADDITEM(ACE_GD300_i,15);
-            MACRO_ADDITEM(ACE_HelmetCam,25);
         };
     };
 

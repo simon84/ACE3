@@ -3,6 +3,12 @@
 ADDON = false;
 
 PREP(init);
-PREP(playerInventoryChanged);
+PREP(handlePlayerInventoryChanged);
+PREP(handleRegisterDevice);
+PREP(handlePutEvent);
+PREP(handleOwnerChanged);
+PREP(getMagazineId);
+PREP(addBftDevice);
+
 
 ADDON = true;

@@ -1,3 +1,13 @@
 #include "script_component.hpp"
 
-["playerInventoryChanged", FUNC(playerInventoryChanged)] call EFUNC(common,addEventHandler);
+GVAR(devices) = [];
+GVAR(deviceOwner) = [];
+GVAR(deviceInfo) = [];
+GVAR(putEventHandler) = -1;
+GVAR(inhibitInventoryChanged) = false;
+GVAR(availableDevices) = ["ACE_DK10_b","ACE_DK10_o","ACE_DK10_i","ACE_GD300_b","ACE_GD300_o","ACE_GD300_i"];
+GVAR(availableDevicesMagazine) = ["ACE_DK10Magazine_b","ACE_DK10Magazine_o","ACE_DK10Magazine_i","ACE_GD300Magazine_b","ACE_GD300Magazine_o","ACE_GD300Magazine_i"];
+
+["playerInventoryChanged", FUNC(handlePlayerInventoryChanged)] call EFUNC(common,addEventHandler);
+[QGVAR(registerDevice), FUNC(handleRegisterDevice)] call EFUNC(common,addEventHandler);
+[QGVAR(ownerChanged), FUNC(handleOwnerChanged)] call EFUNC(common,addEventHandler);
