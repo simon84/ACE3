@@ -1,6 +1,6 @@
 #define BFT_DEVICE_ID(X,Y,Z) class X##_##Z : X \
 { \
-    displayName = Y Z; \
+    displayName = "Y Z"; \
     scope = 1; \
     scopeCurator = 1; \
     GVAR(prototype) = 0; \

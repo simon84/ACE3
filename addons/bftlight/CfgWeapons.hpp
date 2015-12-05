@@ -1,3 +1,4 @@
+#include "bft_ids_macros.hpp"
 class CfgWeapons {
     class ACE_ItemCore;
     class InventoryItem_Base_F;
@@ -22,21 +23,21 @@ class CfgWeapons {
             mass = 40;
         };
     };
-    TF_RADIO_IDS(ACE_DK10_b,CSTRING(DK10_itemDescription_b))
+    BFT_DEVICE_IDS(ACE_DK10_b,CSTRING(DK10_itemDescription_b))
 
     // DK10 OPFOR
     class ACE_DK10_o: ACE_DK10_b {
         descriptionShort = CSTRING(DK10_itemDescription_o);
         displayName = CSTRING(DK10_itemName_o);
     };
-    TF_RADIO_IDS(ACE_DK10_o,CSTRING(DK10_itemDescription_o))
+    BFT_DEVICE_IDS(ACE_DK10_o,CSTRING(DK10_itemDescription_o))
 
     // DK10 IND
     class ACE_DK10_i: ACE_DK10_b {
         descriptionShort = CSTRING(DK10_itemDescription_i);
         displayName = CSTRING(DK10_itemName_i);
     };
-    TF_RADIO_IDS(ACE_DK10_i,CSTRING(DK10_itemDescription_i))
+    BFT_DEVICE_IDS(ACE_DK10_i,CSTRING(DK10_itemDescription_i))
 
     // GD300 BLUFOR
     class ACE_GD300_b: GVAR(ItemCore) {
@@ -48,21 +49,21 @@ class CfgWeapons {
             mass = 5;
         };
     };
-    TF_RADIO_IDS(ACE_GD300_b,CSTRING(GD300_itemDescription_b))
+    BFT_DEVICE_IDS(ACE_GD300_b,CSTRING(GD300_itemDescription_b))
 
     // GD300 OPFOR
     class ACE_GD300_o: ACE_GD300_b {
         descriptionShort = CSTRING(GD300_itemDescription_o);
         displayName = CSTRING(GD300_itemName_o);
     };
-    TF_RADIO_IDS(ACE_GD300_o,CSTRING(GD300_itemDescription_o))
+    BFT_DEVICE_IDS(ACE_GD300_o,CSTRING(GD300_itemDescription_o))
 
     // GD300 IND
     class ACE_GD300_i: ACE_GD300_b {
         descriptionShort = CSTRING(GD300_itemDescription_i);
         displayName = CSTRING(GD300_itemName_i);
     };
-    TF_RADIO_IDS(ACE_GD300_i,CSTRING(GD300_itemDescription_i))
+    BFT_DEVICE_IDS(ACE_GD300_i,CSTRING(GD300_itemDescription_i))
 
 
 };
