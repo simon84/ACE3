@@ -4,14 +4,7 @@ private ["_validItem","_targetContainer","_ind"];
 
 if (!(local _unit)) exitWith {};
 
-// Test if valid Item
-_validItem = false;
-{
-    if ((_item find _x)==0 && {_item != _x}) exitWith {_validItem=true;};
-    nil
-} count GVAR(availableDevices);
-
-if (!_validItem) exitWith {};
+if (!ISBFTDEVICE(_validItem)) exitWith {};
 
 if (_item in backpackItems _unit) then {
     _targetContainer = backpackContainer _unit;

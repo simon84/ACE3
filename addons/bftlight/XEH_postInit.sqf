@@ -11,12 +11,13 @@ GVAR(availableDevicesMagazine) = ["ACE_DK10Magazine_b","ACE_DK10Magazine_o","ACE
 [QGVAR(requestDevice), FUNC(handleRequestDevice)] call EFUNC(common,addEventHandler);
 [QGVAR(ownerChanged), FUNC(handleOwnerChanged)] call EFUNC(common,addEventHandler);
 
-if (isServer) exitWith {
-    ["PlayerJIP", FUNC(handleJIP)] call EFUNC(common,addEventHandler);
+if (hasInterface) then {
+    [] spawn {
+        waitUntil {!isNull ((findDisplay 12) displayCtrl 51)};
+        ((findDisplay 12) displayCtrl 51) ctrlAddEventHandler ["Draw",FUNC(handleDraw)];
+    };
 };
 
-
-[] spawn {
-    waitUntil {!isNull ((findDisplay 12) displayCtrl 51)};
-    ((findDisplay 12) displayCtrl 51) ctrlAddEventHandler ["Draw",FUNC(handleDraw)];
+if (isServer) then {
+    ["PlayerJIP", FUNC(handleJIP)] call EFUNC(common,addEventHandler);
 };
