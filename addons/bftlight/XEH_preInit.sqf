@@ -4,11 +4,11 @@ ADDON = false;
 
 PREP(init);
 PREP(handlePlayerInventoryChanged);
-PREP(handleRegisterDevice);
+PREP(handleRequestDevice);
 PREP(handlePutEvent);
+PREP(handleTakeEvent);
 PREP(handleOwnerChanged);
-PREP(getMagazineId);
-PREP(addBftDevice);
+PREP(handleDraw);
 
 
 ADDON = true;

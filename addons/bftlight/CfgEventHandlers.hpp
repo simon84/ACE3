@@ -14,7 +14,15 @@ class Extended_PostInit_EventHandlers {
 class Extended_Put_EventHandlers {
     class CAManBase {
         class GVAR(putDevice) {
-            clientPut = QUOTE(_this call FUNC(handlePutEvent););
+            Put = QUOTE(_this call FUNC(handlePutEvent););
+        };
+    };
+};
+
+class Extended_Take_EventHandlers {
+    class CAManBase {
+        class GVAR(takeDevice) {
+            Take = QUOTE(_this call FUNC(handleTakeEvent););
         };
     };
 };

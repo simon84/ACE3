@@ -4,7 +4,7 @@
  *
  * Arguments:
  * 0: device id <STRING>
- * 1: owner id (container) <STRING>
+ * 1: Info  <Array>
  *
  * Return Value:
  * Nothing
@@ -14,7 +14,7 @@
 
 #include "script_component.hpp"
 
-params ["_deviceId","_ownerId"];
+params ["_deviceId","_info"];
 
 private ["_ind"];
 
@@ -24,8 +24,8 @@ if (_ind < 0) then {
     _ind = GVAR(devices) pushBack _deviceId;
 };
 
-GVAR(deviceOwner) set [_ind, _ownerId];
+GVAR(deviceInfo) set [_ind, _info];
 
 #ifdef DEBUG_MODE_FULL
-    ACE_LOGDEBUG_2("OWNERCHANGED: %1: %2", _deviceId, _ownerId);
+    ACE_LOGDEBUG_2("INFOCHANGED: %1: %2", _deviceId, _info);
 #endif

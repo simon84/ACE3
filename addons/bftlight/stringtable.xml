@@ -2,37 +2,37 @@
 <Project name="ACE">
     <Package name="bftlight">
         <Key ID="STR_ACE_bftlight_DK10_itemName_b">
-            <English>DK10 Tablet (NATO)</English>
+            <English>DK10 Tablet (B)</English>
         </Key>
         <Key ID="STR_ACE_bftlight_DK10_itemDescription_b">
             <English>DK10 rugged tablet PC</English>
         </Key>
         <Key ID="STR_ACE_bftlight_DK10_itemName_o">
-            <English>DK10 Tablet (CSAT)</English>
+            <English>DK10 Tablet (O)</English>
         </Key>
         <Key ID="STR_ACE_bftlight_DK10_itemDescription_o">
             <English>DK10 rugged tablet PC</English>
         </Key>
         <Key ID="STR_ACE_bftlight_DK10_itemName_i">
-            <English>DK10 Tablet (AAF)</English>
+            <English>DK10 Tablet (I)</English>
         </Key>
         <Key ID="STR_ACE_bftlight_DK10_itemDescription_i">
             <English>DK10 rugged tablet PC</English>
         </Key>
         <Key ID="STR_ACE_bftlight_GD300_itemName_b">
-            <English>GD300 Android (NATO)</English>
+            <English>GD300 Android (B)</English>
         </Key>
         <Key ID="STR_ACE_bftlight_GD300_itemDescription_b">
             <English>GD300 rugged wearable computer</English>
         </Key>
         <Key ID="STR_ACE_bftlight_GD300_itemName_o">
-            <English>GD300 Android (CSAT)</English>
+            <English>GD300 Android (O)</English>
         </Key>
         <Key ID="STR_ACE_bftlight_GD300_itemDescription_o">
             <English>GD300 rugged wearable computer</English>
         </Key>
         <Key ID="STR_ACE_bftlight_GD300_itemName_i">
-            <English>GD300 Android (AAF)</English>
+            <English>GD300 Android (I)</English>
         </Key>
         <Key ID="STR_ACE_bftlight_GD300_itemDescription_i">
             <English>GD300 rugged wearable computer</English>
